@@ -1,0 +1,19 @@
+{
+  "name": "web-scraper",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "serve ."
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "eslint-config-love": "^117.0.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "@extractus/article-extractor": "^8.0.16",
+    "serve": "^14.2.4"
+  }
+}
