@@ -76,5 +76,5 @@ const server = Bun.serve({
 		return new Response("Not Found", { status: notFoundStatus });
 	},
 });
-
+//biome-ignore lint: i use for turn on server
 console.log(`Servidor corriendo en http://localhost:${server.port}`);
