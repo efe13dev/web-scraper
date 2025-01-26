@@ -6,6 +6,7 @@
     "start": "serve ."
   },
   "devDependencies": {
+    "@biomejs/biome": "1.9.4",
     "@types/bun": "latest",
     "eslint-config-love": "^117.0.0"
   },
