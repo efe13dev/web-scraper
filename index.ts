@@ -41,6 +41,7 @@ document.addEventListener("DOMContentLoaded", () => {
 			if (resultDiv) {
 				resultDiv.innerHTML = `<p class="error">Error al extraer el artículo: ${error}</p>`;
 			}
+			//biome-ignore lint: i use for error info
 			console.error("Error al extraer el artículo:", error);
 		}
 	});
