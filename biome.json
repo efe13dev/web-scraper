@@ -7,11 +7,13 @@
 	},
 	"files": {
 		"ignoreUnknown": false,
-		"ignore": []
+		"ignore": [],
+		"include": ["**/*.html", "**/*.js", "**/*.ts"]
 	},
 	"formatter": {
 		"enabled": true,
-		"indentStyle": "tab"
+		"indentStyle": "tab",
+		"formatWithErrors": true
 	},
 	"organizeImports": {
 		"enabled": true
@@ -19,13 +21,12 @@
 	"linter": {
 		"enabled": true,
 		"rules": {
-			"recommended": true,
-			"suspicious": {
-				"noConsole": "warn"
-			}
+			"all": true
 		}
 	},
 	"javascript": {
-		
+		"formatter": {
+			"quoteStyle": "single"
+		}
 	}
 }
